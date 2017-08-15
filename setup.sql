@@ -9,7 +9,7 @@ CREATE TABLE runner(
   bib_id  SERIAL PRIMARY KEY,
   division VARCHAR(100),
   sponsor VARCHAR(100),
-  name VARCHAR(100)
+  name VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE venue(

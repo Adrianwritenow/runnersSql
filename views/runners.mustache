@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {{ #runners }}
+      <div class ='runnerCard'>
+        <h2><a href="/{{bib_id}}">{{name}}</a></h2>
+          {{ bib_id }}
+          {{ division }}
+          {{ sponsor }}
+      </div>
+    {{ /runners }}
+    <h2><a href='/newRunner'>Click here to add a new runner!</a></h2>
+
+  </body>
+</html>

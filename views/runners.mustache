@@ -2,17 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Runners</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    {{ #runners }}
-      <div class ='runnerCard'>
-        <h2><a href="/{{bib_id}}">{{name}}</a></h2>
-          {{ bib_id }}
-          {{ division }}
-          {{ sponsor }}
-      </div>
-    {{ /runners }}
+    <div class = 'wrapper'>
+      {{ #runners }}
+        <div class ='runnerCard'>
+          <h2><a href="/{{bib_id}}">{{name}}</a></h2><br>
+            Bib Id: {{ bib_id }}<br>
+            Division: {{ division }}<br>
+            Sponsor: {{ sponsor }}<br>
+        </div>
+      {{ /runners }}
+    </div>
     <h2><a href='/newRunner'>Click here to add a new runner!</a></h2>
 
   </body>

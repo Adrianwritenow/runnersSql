@@ -1,0 +1,23 @@
+.fields{
+  display: flex;
+  border: 1px grey solid;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.runnerCard{
+  justify-content: center;
+  border: 1px grey solid;
+  padding: 10px;
+}
+ h2{
+   text-align: center;
+ }
+
+h1{
+  text-align: center;
+}
